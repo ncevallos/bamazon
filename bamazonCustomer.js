@@ -15,7 +15,6 @@ var connection = mysql.createConnection({
 connection.connect(function(err){
 	if(err){throw err;}
 	else{
-		console.log("Connected as ID: " + connection.threadId);
 		displayItems();
 	}
 })
@@ -47,12 +46,12 @@ function customerOrder(){
             }
             return productArray;
           },
-          message: "What item would you like to purchase today?"
+          message: "What item would you like to purchase today?\n(Select using item number)"
         },
         {
           name: "quantity",
           type: "input",
-          message: "How much would you like to purchase?"
+          message: "How many would you like to purchase?"
         }
       ])
       .then(function(answer) {
@@ -64,10 +63,8 @@ function customerOrder(){
           }
         }
 
-        // determine if bid was high enough
-        console.log(chosenItem.stock_quantity);
-        console.log(answer.quantity);
         if (chosenItem.stock_quantity > parseInt(answer.quantity)) {
+
           // bid was high enough, so update db, let the user know, and start over
           var newQuantity = (chosenItem.stock_quantity - answer.quantity);
           var purchaseTotal = (chosenItem.price * answer.quantity);
