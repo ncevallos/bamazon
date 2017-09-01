@@ -25,6 +25,8 @@ Once the transaction is complete, the Customer will then be redirected and greet
 ![Image of Customer View `](/images/ScreenShot6.png)
 
 
+**Bamazon Manager**
+
 For the Bamazon Manager mode, upon start-up, the Bamazon App greets the user with a list of options, and prompts them of which would they like to perform. After every option the Manager performs, they will then be returned to this option screen.
 
 ![Image of Customer View `](/images/MScreenShot1.png)

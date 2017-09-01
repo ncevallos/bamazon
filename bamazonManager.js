@@ -27,7 +27,7 @@ function displayOptions(){
         {
           name: "action",
           type: "rawlist",
-          choices: ["View Products for Sale", "View Low Inventory(Less Than 5", "Add to Inventory", "Add New Product", "Exit Program"
+          choices: ["View Products for Sale", "View Low Inventory(Less Than 5)", "Add to Inventory", "Add New Product", "Exit Program"
           ],
           message: "Good Day Boss! What Would you like to do today?"
         }
