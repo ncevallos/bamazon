@@ -19,4 +19,21 @@ Once the transaction is complete, the Customer will then be redirected and greet
 ![Image of Customer View `](/images/ScreenShot6.png)
 
 
-For the Bamazon Manager mode, upon start-up, the Bamazon App
+For the Bamazon Manager mode, upon start-up, the Bamazon App greets the user with a list of options, and prompts them of which would they like to perform. After every option the Manager performs, they will then be returned to this option screen.
+
+![Image of Customer View `](/images/MScreenShot1.png)
+
+If the user selects option one, the program will print a list of all available items. In addition to the items, related data of each item is also displayed, like item number, department, quantity, and price.
+![Image of Customer View `](/images/MScreenShot2.png)
+
+If the user selects option two, the program will display all items having an stock quantity of less than 5. 
+
+![Image of Customer View `](/images/MScreenShot3.png)
+
+If the user selects option three, the Manager can added inventory stock to an item already on the list. They will first be prompted which item they would like to add inventory to. Then they will be prompted as to how much of the item they would like to add to inventory.
+
+![Image of Customer View `](/images/MScreenShot4.png)
+
+![Image of Customer View `](/images/MScreenShot5.png)
+
+If the user selects option four, the Manager can add a new item to the database. They will be prompted to enter all the necessary fields starting with the name of the product. 

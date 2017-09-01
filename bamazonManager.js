@@ -27,7 +27,7 @@ function displayOptions(){
         {
           name: "action",
           type: "rawlist",
-          choices: ["View Products for Sale", "View Low Inventory", "Add to Inventory", "Add New Product", "Exit Program"
+          choices: ["View Products for Sale", "View Low Inventory(Less Than 5", "Add to Inventory", "Add New Product", "Exit Program"
           ],
           message: "Good Day Boss! What Would you like to do today?"
         }
@@ -170,10 +170,6 @@ function addProduct(){
         var prodDepart = answer.department;
         var prodPrice = parseFloat(answer.price);
         var prodStock = answer.stock_quantity;
-        console.log(prodName);
-        console.log(prodDepart);
-        console.log(prodPrice);
-        console.log(prodStock);
         
 		  var sql = "INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ?";
 		  var values = [
