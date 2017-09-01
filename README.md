@@ -37,3 +37,12 @@ If the user selects option three, the Manager can added inventory stock to an it
 ![Image of Customer View `](/images/MScreenShot5.png)
 
 If the user selects option four, the Manager can add a new item to the database. They will be prompted to enter all the necessary fields starting with the name of the product. 
+
+
+![Image of Customer View `](/images/MScreenShot6.png)
+
+![Image of Customer View `](/images/MScreenShot7.png)
+
+After the Manager is done with the program, they simply choose option 5 to exit.
+
+![Image of Customer View `](/images/MScreenShot8.png)
